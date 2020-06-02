@@ -148,9 +148,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 900px) {
-    body {
-        height: 100%;
-    }    
     #page-home {
         background-position-x: 70vw;
     }
@@ -174,7 +171,17 @@ h1, h2, h3, h4, h5, h6 {
     #page-home main {
         align-items: center;
     }
-
+    #page-home .content {
+        width: 90%;
+        max-width: 1100px;
+        height: 85%;
+    
+        margin: 0 auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
