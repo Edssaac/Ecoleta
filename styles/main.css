@@ -162,8 +162,25 @@ h1, h2, h3, h4, h5, h6 {
         left: 50%;
         transform: translateX(-50%);
     }
+    #page-home .content h1 {
+        font-size: 36px;
+    }
+    #page-home .content p {
+        font-size: 20px;
+    }
     #page-home main {
         align-items: center;
+    }
+
+}
+
+
+@media (max-width:350px) {
+    #page-home .content h1 {
+        font-size: 28px;
+    }
+    #page-home .content p {
+        font-size: 18px;
     }
 
 }
